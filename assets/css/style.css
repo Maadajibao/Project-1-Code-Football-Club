@@ -1,4 +1,4 @@
-body {}
+
 
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -8,7 +8,15 @@ body {}
     box-sizing: border-box;
 }
 
-
+/* General Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles*/
+    color: black;
+    
+}
 
 /*Header*/
 
@@ -71,10 +79,10 @@ nav {
 }
 
 .logo {
-    
+    font-size: 80%;
 }
 
-h1 {}
+
 
 /*Main*/
 
@@ -90,3 +98,34 @@ img {
 }
 
 /*Footer*/
+
+footer {
+    background-color: red;
+}
+
+
+/*Media query's*/
+
+/* Media query: Tablets and larger*/
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    .nav-list {
+        display: flex;
+    }
+
+    .nav-list > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+}
