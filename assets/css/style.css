@@ -1,22 +1,19 @@
 body {}
 
 
-/*Navigation*/
-
-/** nav {
-    position: fixed;
-    background-color: black;
-    width: 100%;
-    left: 0;
-    box-shadow: 0 2px 2px #3a3a3a;
-    top: 100%;
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
 
 
 /*Header*/
 
 header {
-    background-color: black;
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -24,11 +21,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    width: 100%;
 }
 
 header a {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
 .nav-list {
@@ -39,14 +37,56 @@ header a {
 
 .nav-list > li {
     margin-bottom: 1em;
-    display: inline;
+    
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/*Navbar styling dropdown*/
+
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    top: 100%;
+    display: none;
+}
+
+/*Nav toggle*/
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 .logo {
     
 }
 
+h1 {}
+
 /*Main*/
 
+main {
+    background-color: lightblue;
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
 
 /*Footer*/
