@@ -141,3 +141,13 @@ footer {
         margin-top: 79px;
     }
 }
+
+/* Media query: Laptops and lager screens*/
+@media screen and (min-width: 992px) {
+    
+    /*Header*/
+
+    .nav-list a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
