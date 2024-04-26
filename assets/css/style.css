@@ -1,0 +1,52 @@
+body {}
+
+
+/*Navigation*/
+
+/** nav {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    top: 100%;
+}
+
+
+/*Header*/
+
+header {
+    background-color: black;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style: none;
+}
+
+.nav-list > li {
+    margin-bottom: 1em;
+    display: inline;
+}
+
+.logo {
+    
+}
+
+/*Main*/
+
+
+/*Footer*/
