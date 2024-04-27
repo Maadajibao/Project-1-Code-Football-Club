@@ -135,11 +135,26 @@ main {
     text-align: center;
 }
 
+/* Teams area */
+
+/* Latest game */
 .games {
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
-    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    background: url(../image/pexels-pixabay-46798.jpg)no-repeat center center/cover;
+}
+
+.cover-text-game {
+        background-color: rgb(173, 216, 230, .5);
+        width: 110px;
+        height: 75px;
+        color: black;
+        font-weight: bold;
+        margin-top: 20px;
+        font-size: 120%;
 }
 
 
@@ -208,6 +223,23 @@ footer {
         right: 60px;
         bottom: 350px;
     }
+
+    /* Teams area */
+
+    /* Latest game */
+    .games {
+        height: 300px;
+    }
+
+    .cover-text-game {  
+        margin-top: 70px;        
+        font-size: 200%;
+        width: 200px;
+        height: 120px;
+        color: black;
+        font-weight: bold;
+}
+
 }
 
 /* Media query: Laptops and lager screens*/
