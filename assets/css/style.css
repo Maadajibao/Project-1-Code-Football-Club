@@ -131,6 +131,16 @@ main {
     text-align: center;
 }
 
+#team {
+    text-align: center;
+}
+
+.games {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
 
 
 /* Footer */
