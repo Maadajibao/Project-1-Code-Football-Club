@@ -309,6 +309,12 @@ footer {
         font-size: 120%;
     }
 
+    /* Team Table */
+
+    .league-table {
+        font-size: 120%;
+    }
+
 
 
 
@@ -322,4 +328,17 @@ footer {
     .nav-list a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Team Table */
+    .team-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .league-table {
+        font-size: 130%;
+        margin-top: -230px;
+    }
+
 }
