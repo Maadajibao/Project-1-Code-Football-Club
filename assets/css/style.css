@@ -172,10 +172,7 @@ main {
     margin-top: 10px;
 }
 
-.player-name {
-    display: inline-block;
-    text-align: left;
-}
+
 
 
 
@@ -204,6 +201,12 @@ footer {
 
 /* Media query: Tablets and larger*/
 @media screen and (min-width: 768px) {
+
+    /*General styling*/
+    .spacing-top {
+        margin-top: 10px;
+    }
+
     /* Header */
     nav {
         display: block;
@@ -258,8 +261,15 @@ footer {
         width: 200px;
         height: 120px;
         color: black;
-        font-weight: bold;
-}
+        font-weight: bold;  
+    }
+
+    /* Team sheet */
+    #team-sheet {
+        margin-top: 20px;
+        font-size: 120%;
+    }
+
 
 
 
