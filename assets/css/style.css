@@ -333,16 +333,16 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    /* Team Table */
-    .team-container {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+    /* Team sheet */
+    #team-sheet {
+        font-size: 140%;
     }
+    
+
+    /* Team Table */
 
     .league-table {
-        font-size: 130%;
-        margin-top: -230px;
+        margin-top: 50px;
+        font-size: 140%;
     }
-
 }
