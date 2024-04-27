@@ -241,10 +241,7 @@ footer {
 /* Media query: Tablets and larger*/
 @media screen and (min-width: 768px) {
 
-    /*General styling*/
-    .spacing-top {
-        margin-top: 10px;
-    }
+
 
     /* Header */
     nav {
@@ -307,6 +304,13 @@ footer {
     #team-sheet {
         margin-top: 20px;
         font-size: 120%;
+    }
+
+    .team-sheet-players {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
     }
 
     /* Team Table */
