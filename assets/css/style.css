@@ -24,6 +24,10 @@ h2, h3 {
     color: black;
 }
 
+.spacing-top {
+    margin-top: 5px;
+}
+
 /*Header*/
 
 header {
@@ -157,6 +161,23 @@ main {
         font-size: 120%;
 }
 
+/* Team sheet */
+
+#team-sheet {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.team-sheet-players {
+    margin-top: 10px;
+}
+
+.player-name {
+    display: inline-block;
+    text-align: left;
+}
+
+
 
 /* Footer */
 
@@ -239,6 +260,8 @@ footer {
         color: black;
         font-weight: bold;
 }
+
+
 
 }
 
