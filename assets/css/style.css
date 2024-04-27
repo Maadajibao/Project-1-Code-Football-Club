@@ -117,12 +117,10 @@ main {
     width: 80%;
     min-height: 120px;
     padding-top: 20px;
+    padding-left: 5px;
 }
 
-img {
-    height: 100%;
-    width: 100%;
-}
+
 
 /* Footer */
 
@@ -179,7 +177,15 @@ footer {
     /* Main content */
     main {
         /* Push down main content down to accommodate larger header*/
-        margin-top: 79px;
+        margin-top: 78px;
+    }
+
+    /* Hero*/
+    #cover-text {
+        width: 300px;
+        padding-left: 10px;
+        right: 60px;
+        bottom: 350px;
     }
 }
 
