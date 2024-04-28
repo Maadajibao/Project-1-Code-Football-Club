@@ -18,7 +18,7 @@ body {
     
 }
 
-h2, h3 {
+h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: black;
@@ -211,8 +211,19 @@ th {
     color: white;
 }
 
+/* About us section */
 
+.team-info {
+    background-color: black;
+    color: blue;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
 
+.info {
+    margin-top: 5px;
+}
 
 
 /* Footer */
