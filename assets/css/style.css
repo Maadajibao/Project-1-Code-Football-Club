@@ -350,9 +350,19 @@ footer {
 
     /* About us section */
     .team-info {
+        padding-top: 20px;
         font-size: 130%;
     }
 
+    .team-info-1 {
+        font-size: 130%;
+        padding-top: 20px;
+        height: 200px;
+    }
+
+    .info {
+        margin-top: 15px;
+    }
 
 
 
