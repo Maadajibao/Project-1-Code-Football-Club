@@ -130,7 +130,8 @@ main {
     margin-top: 10px;
     width: 100%;
     height: 100px;
-    background-color: blue;
+    background-color: black;
+    color: white;
     padding-top: 25px;
     text-align: center;
 }
@@ -215,7 +216,7 @@ th {
 
 .team-info {
     background-color: black;
-    color: blue;
+    color: white;
     width: 100%;
     height: 150px;
     text-align: center;
@@ -295,6 +296,13 @@ footer {
         bottom: 350px;
     }
 
+    /*Welcome section*/
+
+    #welcome-text {
+        font-size: 200%;
+        height: 200px;
+    }
+
     /* Teams area */
 
     /* Latest game */
@@ -328,6 +336,11 @@ footer {
 
     .league-table {
         font-size: 120%;
+    }
+
+    /* About us section */
+    .team-info {
+        font-size: 130%;
     }
 
 
