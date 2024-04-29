@@ -31,7 +31,7 @@ h2 {
 /*Header*/
 
 header {
-    background-color: #ffffff;
+    background-color: black;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -40,6 +40,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     width: 100%;
+    color: #ffffff;
 }
 
 header a {
@@ -68,13 +69,15 @@ header a {
 
 nav {
     position: absolute;
-    background-color: #ffffff;
+    background-color: black;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
     top: 100%;
     display: none;
+    color: white;
+    
 }
 
 /*Nav toggle*/
