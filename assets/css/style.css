@@ -21,7 +21,7 @@ body {
 h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    
 }
 
 .spacing-top {
@@ -238,9 +238,17 @@ th {
 
 /* Contact */
 
+#contact {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
 #signup-form {
     color: #ffffff;
-    background-color: black;
     padding: 30px;
 }
 
@@ -320,8 +328,9 @@ footer {
     #cover-text {
         width: 300px;
         padding-left: 10px;
-        right: 60px;
-        bottom: 350px;
+        right: 30px;
+        bottom: 200px;
+    
     }
 
     /*Welcome section*/
@@ -383,9 +392,15 @@ footer {
     }
 
     /* Conctact*/
+    #contact {
+        padding-top: 20px;
+    }
+
+
     #signup-form {
         max-width: 400px;
         align-items: center;
+        margin-left: 184px;
 
     }
 
@@ -402,6 +417,11 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 
+    /* Cover text */
+    #cover-text {
+        bottom: 275px;
+    }
+
     /* Team sheet */
     #team-sheet {
         font-size: 140%;
@@ -412,6 +432,34 @@ footer {
 
     .league-table {
         margin-top: 50px;
-        font-size: 140%;
     }
+        /* Conctact*/
+
+    #signup-form {
+        margin-left: 312px;
+
+    }
+
+}
+
+
+/* Media query: Lager screens*/
+@media screen and (min-width: 1440px) {
+
+    #signup-form {
+        margin-left: 520px;
+    
+    }
+    
+    }
+
+
+/* Media query: Lager screens*/
+@media screen and (min-width: 1920px) {
+
+#signup-form {
+    margin-left: 750px;
+
+}
+
 }
