@@ -253,6 +253,7 @@ th {
 #signup-form {
     color: #ffffff;
     padding: 30px;
+    
 }
 
 .text-input {
@@ -267,10 +268,6 @@ th {
 }
 
 /* Footer */
-
-footer {
-    
-}
 
 #social-networks {
     text-align: center;
@@ -407,7 +404,13 @@ footer {
 
     }
 
+/* Footer */
 
+#social-networks li {
+    font-size: 160%;
+    padding: 1%;
+
+}
 
 }
 
