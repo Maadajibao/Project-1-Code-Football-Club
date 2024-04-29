@@ -1,33 +1,31 @@
 # Code Football Club
 
-Code Football Club is a football club whom i built this website for. They are a newly started team and are looking to expand their football squad with players.
+Code Football Club is a football club I built this website for. They are a newly started team and are looking to expand their football squad with players.
 
-Users visiting this website will see the current squad members, the league standings and the opportunity to join the team by filling in a form.
+Users visiting this site will see the current squad members, the league standings and the opportunity to join the team by filling in a form.
 
 ![Code Football Club](assets/image/page.JPG)
 
 ## Features
 
 * Navigation
-   * Featured at the top of the page, the navigation bar shows the website name in the left corner(in white color): The log works as a link to the top of the page.
+   * Displayed at the top of the page, the navigation bar shows the site's name in the left corner(site logo): The logo works as a link to the top of the page.
    * The home link takes you to the start of the page, team link takes you to the team section, about us takes you to the about us section and contact will take user to the form.
    * The navigation font are in white color to stand out from the black background.
-   * The navigation lets the user now what site they are on and its easy to navigate.
-
+  
 ![navbar](assets/image/header.JPG)
 
 
 * Home
-   * When visiting this page user will see a hero picture of "the team" with a text with information of the team name and location.
-   * User will be greated with a welcoming text and the teams motto, "We are the blue's"
-   
+   * When visiting the site, user will see a hero picture of "the team" with a text with information of the team name and location.
+   * User will be greated with a welcoming text and the teams motto, "We are the blue's".   
 
 ![Home](assets/image/hero%20pic%20with%20welcoming%20message.JPG)
 
 
 
 * Team
-   * By scrolling down or pressing team in navigationbar users will visit the team section. Here user will see the latest game played by the team. User will see the score and the teams that played.
+   * By scrolling down or pressing team in the navigation bar user's will visit the team section. Here user's will see the latest game played by the team. User will see the game score and the teams that played.
 
    ![Latest game played](assets/image/latest%20game.JPG)
 
@@ -35,17 +33,17 @@ Users visiting this website will see the current squad members, the league stand
 
    ![Team sheet](assets/image/team%20sheet.JPG)
 
-   * Also user visiting this page will see the league standings. Here user will see the name of the teams, games played, wins, draws, loses,goal difference and points collected.
+   * Also user's visiting this page will see the league standings. Here user's will see the name of the teams, games played, wins, draws, loses, goal difference and points collected.
     
     ![Team sheet](assets/image/league%20standing.JPG)
 
 * About us
-   *  In this section users can read about the team, where they are based, which division they play in and the plans for the coming year. The team information is also stated.
+   *  In this section user's can read about the team, where they are based, which division they play in and the plans for the coming year. The team information is also stated.
 
     ![About us](assets/image/about%20us.JPG)
 
 * Contact
-   *  The contact section contains a form that user can fill in if they are interested in playing with the team. The for ask users for their name, position age and email.
+   *  The contact section contains a form that user's can fill in if they are interested in playing with the team. The form ask user's for their name, position age and email.
 
     ![Contact](assets/image/form.JPG)
 
