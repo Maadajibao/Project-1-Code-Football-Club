@@ -4,9 +4,7 @@ Code Football Club is a football club whom i built this website for. They are a 
 
 Users visiting this website will see the current squad members, the league standings and the opportunity to join the team by filling in a form.
 
-![The Price](https://github.com/Maadajibao/Project-1-The-Price/assets/139248826/d426211c-e004-41b2-95bf-6350b6a890e2)
-
-
+![Code Football Club](assets/image/page.JPG)
 
 ## Features
 
@@ -16,7 +14,7 @@ Users visiting this website will see the current squad members, the league stand
    * The navigation font are in white color to stand out from the black background.
    * The navigation lets the user now what site they are on and its easy to navigate.
 
-![navbar](../Project-1-Code-Football-Club/assets/image/header.JPG)
+![navbar](assets/image/header.JPG)
 
 
 * Home
@@ -24,32 +22,32 @@ Users visiting this website will see the current squad members, the league stand
    * User will be greated with a welcoming text and the teams motto, "We are the blue's"
    
 
-![Home](../Project-1-Code-Football-Club/assets/image/hero%20pic%20with%20welcoming%20message.JPG)
+![Home](assets/image/hero%20pic%20with%20welcoming%20message.JPG)
 
 
 
 * Team
    * By scrolling down or pressing team in navigationbar users will visit the team section. Here user will see the latest game played by the team. User will see the score and the teams that played.
 
-   ![Latest game played](../Project-1-Code-Football-Club/assets/image/latest%20game.JPG)
+   ![Latest game played](assets/image/latest%20game.JPG)
 
    * Underneath user will see the team sheet. The team sheet is sorted by position, goal keepers, defenders, midfielders and strikers. User will also see the name of the players.
 
-   ![Team sheet](../Project-1-Code-Football-Club/assets/image/team%20sheet.JPG)
+   ![Team sheet](assets/image/team%20sheet.JPG)
 
    * Also user visiting this page will see the league standings. Here user will see the name of the teams, games played, wins, draws, loses,goal difference and points collected.
     
-    ![Team sheet](../Project-1-Code-Football-Club/assets/image/league%20standing.JPG)
+    ![Team sheet](assets/image/league%20standing.JPG)
 
 * About us
    *  In this section users can read about the team, where they are based, which division they play in and the plans for the coming year. The team information is also stated.
 
-    ![About us](../Project-1-Code-Football-Club/assets/image/about%20us.JPG)
+    ![About us](assets/image/about%20us.JPG)
 
 * Contact
    *  The contact section contains a form that user can fill in if they are interested in playing with the team. The for ask users for their name, position age and email.
 
-    ![Contact](../Project-1-Code-Football-Club/assets/image/form.JPG)
+    ![Contact](assets/image/form.JPG)
 
 
 
@@ -57,7 +55,7 @@ Users visiting this website will see the current squad members, the league stand
    * There are four images that are links. They are in the same theme color, blue. 
    * These links will take you to Facebook, Youtubute, Instagram and Twitter.
 
-![footer](../Project-1-Code-Football-Club/assets/image/footer.JPG)
+![footer](assets/image/footer.JPG)
 
 
 ## Testing
@@ -73,7 +71,7 @@ Users visiting this website will see the current squad members, the league stand
 * Its a bug that remain and its for bigger screens, the form does not get centered.
 * I have media query for 768px, 992px, 1920px and 1440px and they all look good but with my screen it not centered.
 
-![bug issue](../Project-1-Code-Football-Club/assets/image/bug.JPG)
+![bug issue](assets/image/bug.JPG)
 
 
 ### Validator Testing
@@ -84,7 +82,7 @@ Users visiting this website will see the current squad members, the league stand
  * No errors were found.
 * Accessibility
 
-![test för hemsidan](../Project-1-Code-Football-Club/assets/image/fixs.JPG)
+![test för hemsidan](assets/image/fixs.JPG)
 
 
 
